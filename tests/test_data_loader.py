@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 from src.data_loader import load_jobs

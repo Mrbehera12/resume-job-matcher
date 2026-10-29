@@ -23,3 +23,11 @@ htmlcov/
 
 # macOS
 .DS_Store
+
+# Personal resume files
+data/examples/*.pdf
+
+# Local API credentials
+.env
+.env.*
+!/.env.example
