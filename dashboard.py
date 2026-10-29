@@ -124,5 +124,8 @@ if run_match:
             st.info("No skill gap recommendations are available for these results.")
 
         st.success(f"Analysis complete: {len(results)} jobs reviewed.")
-
     except Exception as exc:
+        st.error(f"Something went wrong: {exc}")
+    finally:
+        if temp_path is not None:
+            temp_path.unlink(missing_ok=True)
