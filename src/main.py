@@ -1,19 +1,16 @@
 
-from src.models import Job
+from src.data_loader import load_jobs
 
 
-job = Job(
-    job_id="JOB001",
-    title="Junior Python Developer",
-    company="Example Tech",
-    description=(
-        "Develop Python applications, write SQL queries, "
-        "use Git and collaborate with developers."
-    ),
-    skills=["Python", "SQL", "Git"],
-    location="Bengaluru",
-)
+def main():
+    jobs = load_jobs("data/examples/sample_jobs.json")
 
-print(job)
-print("\nJob title:", job.title)
-print("Required skills:", job.skills)
+    print("Total jobs loaded:", len(jobs))
+    print()
+
+    for job in jobs:
+        print(f"{job.job_id} | {job.title} | {job.location}")
+
+
+if __name__ == "__main__":
+    main()

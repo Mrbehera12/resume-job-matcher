@@ -1,0 +1,43 @@
+
+[
+  {
+    "job_id": "JOB001",
+    "title": "Junior Python Developer",
+    "company": "Example Tech",
+    "description": "Develop Python applications, write SQL queries, use Git and collaborate with developers.",
+    "skills": ["Python", "SQL", "Git"],
+    "location": "Bengaluru"
+  },
+  {
+    "job_id": "JOB002",
+    "title": "Data Analyst",
+    "company": "Sample Analytics",
+    "description": "Analyze datasets using Python, SQL, Excel and data visualization.",
+    "skills": ["Python", "SQL", "Excel", "Data Visualization"],
+    "location": "Remote"
+  },
+  {
+    "job_id": "JOB003",
+    "title": "Frontend Developer",
+    "company": "WebWorks",
+    "description": "Build responsive web applications using HTML, CSS, JavaScript and React.",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "location": "Bengaluru"
+  },
+  {
+    "job_id": "JOB004",
+    "title": "Cloud Engineer",
+    "company": "Cloud Example",
+    "description": "Work with AWS, Linux, Docker, Python and cloud infrastructure.",
+    "skills": ["AWS", "Linux", "Docker", "Python"],
+    "location": "Hyderabad"
+  },
+  {
+    "job_id": "JOB005",
+    "title": "Java Developer",
+    "company": "CodeCraft",
+    "description": "Develop backend services using Java, Spring Boot, SQL and Git.",
+    "skills": ["Java", "Spring Boot", "SQL", "Git"],
+    "location": "Remote"
+  }
+]
